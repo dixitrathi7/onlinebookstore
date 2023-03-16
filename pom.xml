@@ -78,4 +78,19 @@
 			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Online E-Book Store Releases Nexus Repository</name>
+	      <url>http://3.110.90.30:8081/repository/Online-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name> Online E-Book Store Snapshot Nexus Repository </name>
+	      <url>http://3.110.90.30:8081/repository/Online-SS/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
