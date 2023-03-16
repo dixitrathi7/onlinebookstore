@@ -6,6 +6,11 @@
 	<artifactId>onlinebookstore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	<properties>
+		<sonar.host.url>http://13.126.165.3:9000/</sonar.host.url>
+		<sonar.login>squ_e140d68854eb767ddf812378b0fdf53128fac739</sonar.login>
+
+	</properties>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<finalName>onlinebookstore</finalName>
@@ -33,11 +38,7 @@
 					</execution>
 				</executions>
 			</plugin>
-	<properties>
-		<sonar.host.url>http://13.126.165.3:9000/</sonar.host.url>
-		<sonar.login>squ_e140d68854eb767ddf812378b0fdf53128fac739</sonar.login>
-
-	</properties>
+	
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
