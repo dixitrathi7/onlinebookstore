@@ -74,18 +74,16 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-	<!--
 	    <repository>
 	      <id>nexus</id>
 	      <name>Online E-Book Store Releases Nexus Repository</name>
-	      <url>http://3.110.90.30:8081/repository/Online-Release/</url>
+	      <url>http://43.204.111.166:8081/repository/Online-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name> Online E-Book Store Snapshot Nexus Repository </name>
-	      <url>http://3.110.90.30:8081/repository/Online-SS/</url>
+	      <url>http://43.204.111.166:8081/repository/Online-SS/</url>
 	    </snapshotRepository>
-	    -->
 	</distributionManagement>
 </project>
